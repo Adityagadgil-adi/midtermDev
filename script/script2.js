@@ -11,8 +11,6 @@ $(document).ready(function(){
 });
 function myfunction(){
 
-    // $("#dis").append(localStorage.getItem($("#but").value));
-   $("#dis").append(localStorage.getItem((document.getElementById("abc").value)));
-   $("#dis").append("<br>");
-   // (document.getElementById("abc").value);
+    location.href = 'displaypage.html';
+    
 }
