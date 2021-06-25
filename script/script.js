@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $.ajax({
         type: "GET",
-        url: "products.json",
+        url: "../json/products.json",
         dataType: "json",
         error: (e) => { console.log(e); },
         success: parseJSON

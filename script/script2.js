@@ -11,6 +11,6 @@ $(document).ready(function(){
 });
 function myfunction(){
 
-    location.href = 'displaypage.html';
+    location.href = '../displaypage/displaypage.html';
     
 }
